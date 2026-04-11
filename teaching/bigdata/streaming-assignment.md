@@ -8,7 +8,7 @@ title: "Big Data Processing | Streaming Assignment"
 
 
 #### Dataset
-In this exercise we are going to use the [Github event timeline](https://api.github.com/events) in order to gain some real-time insights on the development of Github projects. For the analysis we are going to use the [Apache Flink](http://flink.apache.org) system - the leading open source system for stream analysis. For an overview of how Flink works, you can take a look at the paper ["Apache Flink: Stream and Batch Processing in a Single Engine"](http://asterios.katsifodimos.com/assets/publications/flink-deb.pdf) (note that the API might have changed since the paper was published - the principles, though, remain the same). For an up-to-date tutorials, etc., you can use [Flink's training material](http://training.data-artisans.com/).
+In this exercise we are going to use the [Github event timeline](https://api.github.com/events) in order to gain some real-time insights on the development of Github projects. For the analysis we are going to use the [Apache Flink](http://flink.apache.org) system - the leading open source system for stream analysis. For an overview of how Flink works, you can take a look at the paper ["Apache Flink: Stream and Batch Processing in a Single Engine"](https://dl.acm.org/doi/10.1145/2723372.2742788) (note that the API might have changed since the paper was published - the principles, though, remain the same). For an up-to-date tutorials, etc., you can use [Flink's training material](http://training.data-artisans.com/).
 
 We will use the [Github events](https://developer.github.com/v3/activity/events/types/), so, please head to the documentation page in order to see some examples before we continue. 
 

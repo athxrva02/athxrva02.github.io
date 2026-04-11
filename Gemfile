@@ -1,5 +1,9 @@
 source "https://rubygems.org"
 
+# Gemfile.lock / Bundler 2.7+ require Ruby 3.2 or newer. Use Homebrew Ruby on macOS
+# (system Ruby 2.6 is too old). See AGENTS.md — Local Ruby setup.
+ruby ">= 3.2.0"
+
 # Updated gems (individual for updates)
 gem "jekyll", "~> 4.4"
 gem "kramdown", "~> 2.5"

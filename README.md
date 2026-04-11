@@ -1,6 +1,6 @@
-# asterios.katsifodimos.com
+# athxrva02.github.io
 
-Personal academic website for [Asterios Katsifodimos](http://asterios.katsifodimos.com), Assistant Professor at TU Delft.
+Personal website for [Atharva Dagaonkar](https://athxrva02.github.io), MSc Computer Science student at TU Delft and AI Engineer Intern at Rabobank.
 
 Built with [Jekyll](https://jekyllrb.com/) and hosted via GitHub Pages.
 
@@ -8,7 +8,7 @@ Built with [Jekyll](https://jekyllrb.com/) and hosted via GitHub Pages.
 
 - **Jekyll** — static site generator (via `github-pages` gem)
 - **Bootstrap 5.3.3** — layout and responsive grid (CDN)
-- **Font Awesome 6.7.2** — icons (CDN)
+- **Font Awesome 7.0.1** — icons (CDN)
 - **Montserrat / Roboto** — fonts (Google Fonts CDN)
 - **`css/theme.css`** — all custom styles (single file, no preprocessor)
 - **`css/syntax.css`** — code block syntax highlighting (Rouge)
@@ -19,14 +19,15 @@ Built with [Jekyll](https://jekyllrb.com/) and hosted via GitHub Pages.
 _layouts/
   default.html        # single shared layout (navbar, footer)
 _config.yml           # site name, URL, markdown/highlighter settings
-index.md              # home page (hero, awards, people)
+index.md              # home page (hero, awards, focus areas)
 publications/         # research & publications page
 teaching/             # courses and thesis supervision
 service/              # community service
+bio/                  # short bio and career timeline
 css/
   theme.css           # custom styles
   syntax.css          # syntax highlighting
-assets/               # images (profile photo, people portraits)
+assets/               # images and publication PDFs
 Gemfile               # Ruby dependencies
 ```
 
@@ -34,47 +35,52 @@ Gemfile               # Ruby dependencies
 
 ### Prerequisites
 
-Ruby and Bundler must be installed. On macOS:
+**Ruby 3.2–3.x** and Bundler. Apple's built-in Ruby (2.6) is too old. Ruby 4.x breaks gem dependencies — use Ruby 3.4.
+
+On macOS, use Homebrew:
 
 ```bash
-brew install ruby
+brew install ruby@3.4
+export PATH="/opt/homebrew/opt/ruby@3.4/bin:$PATH"
 gem install bundler
+ruby -v   # should show 3.4.x
 ```
 
 ### Setup
 
 ```bash
-bundle install
+make install
 ```
 
 ### Serve locally
 
 ```bash
-bundle exec jekyll serve
+make preview
 ```
 
-The site is available at `http://localhost:4000`. Jekyll watches for file changes and rebuilds automatically.
+The site is available at `http://localhost:4000`.
 
 ### Build (static output)
 
 ```bash
-bundle exec jekyll build
+make all
 ```
 
 Output is written to `_site/`.
 
 ## Deployment
 
-The site is deployed automatically by GitHub Pages on every push to the `master` branch. No manual build step is needed — GitHub Pages runs Jekyll server-side.
+Deployed automatically by GitHub Pages on every push to `master`.
 
 ## Editing content
 
 | Page | File |
 |------|------|
-| Home (bio, awards, people) | `index.md` |
-| Publications | `publications/index.md` |
-| Teaching | `teaching/index.html` |
-| Service | `service/index.md` |
+| Home (bio, awards, focus areas) | `index.md` |
+| Publications | `publications/index.md` + `_data/publications.yml` |
+| Teaching | `teaching/index.md` + `_data/teaching.yml` |
+| Service | `service/index.md` + `_data/service.yml` |
+| Bio / Timeline | `bio/index.md` + `_data/timeline.yml` |
 | Navbar / footer | `_layouts/default.html` |
 | Styles | `css/theme.css` |
-| Site config (URL, name) | `_config.yml` |
+| Site config | `_config.yml` |

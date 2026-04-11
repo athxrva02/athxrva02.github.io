@@ -1,50 +1,61 @@
+- year: "2026–"
+  current: true
+  icon: fa-solid fa-robot
+  title: AI Engineer Intern
+  org: Rabobank
+  detail: "Utrecht, Netherlands · Agentic AI, R&D, and large-scale data processing"
+
 - year: "2025–"
   current: true
-  icon: fa-solid fa-cloud
-  title: Amazon Scholar
-  org: AWS
-  detail: Deep Science for Systems Group (DS3)
-
-- year: "2024–"
-  current: true
-  icon: fa-solid fa-users
-  title: Head of the DIS Group
+  icon: fa-solid fa-graduation-cap
+  title: MSc Computer Science
   org: TU Delft
-  detail: Data-intensive Systems Group
+  detail: "July 2025–July 2027 · Delft, Netherlands"
 
-- year: "2023–2024"
-  icon: fa-solid fa-cloud
-  title: Amazon Visiting Academic
-  org: AWS
-  detail: Deep Science for Systems Group (DS3)
+- year: "2024–2025"
+  icon: fa-solid fa-code
+  title: ASE — Full Stack
+  org: ARRISE, Hyderabad
+  detail: "Java 17, Spring Boot, Angular/React · Team leadership, scalable services, TDD"
 
-- year: "2017–"
-  current: true
-  icon: fa-solid fa-university
-  title: Assistant Professor
-  org: TU Delft
-  detail: "Faculty of EEMCS · Delft, Netherlands"
+- year: "2024"
+  icon: fa-solid fa-code
+  title: Software Engineer Intern
+  org: ARRISE, Hyderabad
+  detail: "Backend APIs for Live Casino Integration · Angular components, CI/CD"
 
-- year: "2017"
-  icon: fa-solid fa-building
-  title: Senior Software Engineer
-  org: "SAP Innovation Center, Berlin"
-  detail: Scalable architectures for machine learning inference and training
-
-- year: "2013–2016"
+- year: "2023"
   icon: fa-solid fa-flask
-  title: Postdoctoral Researcher
-  org: TU Berlin & DFKI
-  detail: "Database Systems & Information Management Group (Volker Markl)"
+  title: Research Intern
+  org: National University of Singapore
+  detail: "ML and AR for 3D model generation in education"
 
-- year: "2009–2013"
-  icon: fa-solid fa-graduation-cap
-  title: PhD
-  org: "INRIA Saclay & Université Paris-Sud"
-  detail: Supervised by Ioana Manolescu
+- year: "2023"
+  icon: fa-solid fa-location-dot
+  title: Intern
+  org: University of Auckland
+  detail: "Threat detection and geoparsing SaaS · Python, JavaScript"
 
-- year: "2003–2009"
+- year: "2022–2023"
+  icon: fa-solid fa-microchip
+  title: Research Intern, PRISM
+  org: Samsung India, Bengaluru
+  detail: "Boolean expression trees, indexing, and event matching"
+
+- year: "2022–2023"
+  icon: fa-solid fa-chart-line
+  title: ML and Analytics Intern
+  org: National University of Singapore
+  detail: "Water contamination detection · Python, deep learning, NASA data on Azure"
+
+- year: "2022"
+  icon: fa-solid fa-database
+  title: Big Data Intern
+  org: Hewlett Packard Enterprise, Singapore
+  detail: "PySpark project on Microsoft Azure"
+
+- year: "2020–2024"
   icon: fa-solid fa-graduation-cap
-  title: "BSc & MSc"
-  org: University of Cyprus
-  detail: "High Performance Computing Lab (HPCL) · with Marios Dikaiakos"
+  title: B.Tech Computer Science
+  org: Vellore Institute of Technology
+  detail: "Vellore, India"

@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Asterios Katsifodimos | Assistant Professor, TU Delft"
+title: "Atharva Dagaonkar | Publications"
 ---
 
-<h5>Selected Papers</h5>
+<h5>Selected work</h5>
 
 <div id="publications" class="row" style="padding-top: 1rem;">
 
@@ -19,9 +19,8 @@ title: "Asterios Katsifodimos | Assistant Professor, TU Delft"
 {% endfor %}
 </div>
 
-<h5>Publications</h5>
-<i>For a complete list, check my <a href="https://dblp.org/pid/64/7497.html">DBLP entry</a></i>
-<br/>
+<h5>All publications</h5>
+<p class="text-muted"><em>PDFs and project links will appear here when available. For an overview of my experience, see my <a href="https://www.linkedin.com/in/atharva-dagaonkar">LinkedIn</a> or <a href="https://github.com/athxrva02">GitHub</a>.</em></p>
 <br/>
 {% assign pubs_by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
 {% for year_group in pubs_by_year %}

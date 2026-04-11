@@ -7,11 +7,36 @@ This file provides guidance to AI coding agents when working with code in this r
 ```bash
 make preview          # Serve locally at localhost:4000 (with live reload)
 make all              # Build to _site/
-make install          # Install gem dependencies
+make install          # Install gem dependencies (gems go to vendor/bundle; no sudo)
 
 bundle exec jekyll serve --baseurl ''   # Manual serve equivalent
 bundle exec jekyll build                # Manual build equivalent
 ```
+
+**macOS — use Homebrew Ruby (not system Ruby 2.6).** This project’s `Gemfile.lock` needs **Ruby 3.2+** and **Bundler 2.7.x**. Apple’s system Ruby is **2.6**, so `bundler 2.7.2` cannot install there (“requires Ruby version >= 3.2.0”).
+
+1. Install Ruby and put it first on your `PATH`:
+
+   ```bash
+   brew install ruby
+   ```
+
+   Then add **one** of these to `~/.zshrc` (restart the terminal after):
+
+   - **Apple Silicon:** `export PATH="/opt/homebrew/opt/ruby/bin:$PATH"`
+   - **Intel Mac:** `export PATH="/usr/local/opt/ruby/bin:$PATH"`
+
+   Confirm: `which ruby` should **not** be `/usr/bin/ruby`, and `ruby -v` should show **3.2+**.
+
+2. Install Bundler and project gems:
+
+   ```bash
+   gem install bundler
+   cd /path/to/athxrva02.github.io
+   make install
+   ```
+
+Gems install into **`vendor/bundle`** (see `.bundle/config`), so no `sudo` is needed.
 
 Deployment is automatic via GitHub Pages on push to `master`. No manual deploy step needed.
 

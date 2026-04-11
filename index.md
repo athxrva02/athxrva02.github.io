@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Asterios Katsifodimos | Asst. Professor, TU Delft"
+title: "Atharva Dagaonkar | AI Engineer Intern, Rabobank | MSc Computer Science, TU Delft"
 ---
 
 <!-- Hero -->
@@ -8,17 +8,17 @@ title: "Asterios Katsifodimos | Asst. Professor, TU Delft"
 <div class="col-sm-8">
 
 <p class="lead lead-xl"><strong>
-Asst. Professor at <a href="http://www.tudelft.nl/">TU Delft</a> and Amazon Scholar (<a href="https://www.amazon.science/research-areas/information-and-knowledge-management">AWS</a>).</strong>
+MSc Computer Science at <a href="https://www.tudelft.nl/">TU Delft</a> and AI Engineer Intern at <a href="https://www.rabobank.com/">Rabobank</a> (Utrecht).</strong>
 </p>
 
-<p>I lead the <a href="https://dis.ewi.tudelft.nl">Data-intensive Systems Group</a> at TU Delft. I work in the broad area of data systems research; most of my research at the moment focuses on Cloud application runtimes, and data discovery. Over the years, my research has found applications in multiple real-world systems, including Apache Flink, and systems within Amazon's Cloud. Before joining TU Delft in 2017, I held positions at the <a href="https://icn.sap.com">SAP Innovation Center</a>, as well as at <a href="http://www.dima.tu-berlin.de/menue/database_systems_and_information_management_group/?no_cache=1">TU Berlin</a>, working with <a href="https://www.dima.tu-berlin.de/menue/staff/volker_markl/">Volker Markl</a>. I received my PhD from <a href="http://www.inria.fr/saclay/">INRIA Saclay</a>/<a href="https://www.universite-paris-saclay.fr">Université Paris-Sud 11</a> in 2013, supervised by <a href="http://www-rocq.inria.fr/~manolesc/">Ioana Manolescu</a>. I completed my BSc and MSc at the University of Cyprus, working with <a href="http://www.cs.ucy.ac.cy/~mdd/">Marios Dikaiakos</a>.
-
+<p>
+I work on research in data-intensive systems and am currently focused on agentic AI and deep reinforcement learning at Rabobank, partnering across Product, Security, and Data Engineering to productionize high-performance AI systems. Previously I was a full-stack software engineer at ARRISE, specializing in Java with Angular and React, with experience in scalable architecture, agile delivery, and test-driven development. I hold the AWS Solutions Architect – Associate certification. Earlier roles include research and engineering internships at the National University of Singapore, the University of Auckland, Samsung R&amp;D, and Hewlett Packard Enterprise. I received my B.Tech in Computer Science from Vellore Institute of Technology (2020–2024) and am pursuing my MSc at TU Delft (2025–2027). I have published on inventory management in augmented reality using Apple ARKit for visionOS.
 </p>
 
 <p><a href="/bio/"><span class="fa-solid fa-id-card"></span> Short bio &amp; timeline</a></p>
 
 <div class="awards-row">
-<strong><span class="fa-solid fa-trophy"></span> Awards</strong><br>
+<strong><span class="fa-solid fa-trophy"></span> Awards &amp; highlights</strong><br>
 <div class="awards-content">
 {% for a in site.data.awards %}<span class="badge-{{ a.type }}"><span class="fa-solid fa-{% if a.type == 'grant' %}flask{% else %}award{% endif %} badge-icon"></span>{{ a.name }}</span>
 {% endfor %}</div>
@@ -27,24 +27,22 @@ Asst. Professor at <a href="http://www.tudelft.nl/">TU Delft</a> and Amazon Scho
 </div>
 <div class="col-md-4">
 <div class="profile-card">
-  <img src="assets/asterios.katsifodimos-2022.jpg" class="profile-photo" alt="Asterios Katsifodimos - Αστέριος Κατσιφοδήμος">
+  <img src="assets/atharva.jpeg" class="profile-photo" alt="Atharva Dagaonkar">
   <div class="profile-divider"></div>
   <div class="profile-contact">
     <div class="profile-contact-item">
       <span class="fa-solid fa-envelope profile-contact-icon"></span>
-      <a href="mailto:A.Katsifodimos@tudelft.nl">A.Katsifodimos@tudelft.nl</a>
+      <a href="mailto:dagaonkaratharva@gmail.com">dagaonkaratharva@gmail.com</a>
     </div>
     <div class="profile-contact-item">
       <span class="fa-solid fa-map-marker-alt profile-contact-icon"></span>
-      <span>Room 1E100, Van Mourik Broekmanweg 6<br>2628XE Delft, Netherlands</span>
+      <span>Delft, South Holland, Netherlands</span>
     </div>
   </div>
   <div class="profile-divider"></div>
   <div class="profile-socials">
-    <a href="https://scholar.google.com/citations?user=1KdkcSoAAAAJ&hl=en&oi=ao"><span class="fa-solid fa-graduation-cap"></span> Scholar</a>
-    <a href="https://www.linkedin.com/in/asteriosk/"><span class="fa-brands fa-linkedin"></span> LinkedIn</a>
-    <a href="https://github.com/asteriosk"><span class="fa-brands fa-github"></span> GitHub</a>
-    <a href="https://x.com/kAsterios"><span class="fa-brands fa-x-twitter"></span> X</a>
+    <a href="https://www.linkedin.com/in/atharva-dagaonkar"><span class="fa-brands fa-linkedin"></span> LinkedIn</a>
+    <a href="https://github.com/athxrva02"><span class="fa-brands fa-github"></span> GitHub</a>
   </div>
 </div>
 </div>
@@ -53,30 +51,30 @@ Asst. Professor at <a href="http://www.tudelft.nl/">TU Delft</a> and Amazon Scho
 
 <!-- Research Areas -->
 <div id="research" class="row" style="padding-top: 1rem;">
-<div class="col-12"><h5>Research Areas</h5></div>
+<div class="col-12"><h5>Focus areas</h5></div>
 
 <div class="col-md-4 mb-3">
 <div class="research-card">
-  <div class="card-icon"><span class="fa-solid fa-cloud"></span></div>
-  <h6>Cloud Runtimes</h6>
-  <p style="font-size:0.9rem; margin-bottom:0.75rem;">Building programming models and runtimes that bring ACID transactions to stateful serverless in the Cloud.</p>
-</div>
-</div>
-
-<div class="col-md-4 mb-3">
-<div class="research-card">
-  <div class="card-icon"><span class="fa-solid fa-water"></span></div>
-  <h6>Stream Processing</h6>
-  <p style="font-size:0.9rem; margin-bottom:0.75rem;">Designing fault-tolerant, high-throughput streaming systems that scale to billions of events per second.</p>
+  <div class="card-icon"><span class="fa-solid fa-robot"></span></div>
+  <h6>Agentic AI &amp; automation</h6>
+  <p class="small text-muted mb-0">LangChain-style orchestration, production AI systems, and R&amp;D for large-scale data processing in enterprise settings.</p>
 </div>
 </div>
 
 <div class="col-md-4 mb-3">
 <div class="research-card">
-  <div class="card-icon"><span class="fa-solid fa-database"></span></div>
-  <h6>Data Discovery</h6>
-  <p style="font-size:0.9rem; margin-bottom:0.75rem;">Automating the discovery of datasets and their relationships in data lakes and enterprise repositories.</p>
-</div>
+  <div class="card-icon"><span class="fa-solid fa-server"></span></div>
+  <h6>Scalable systems &amp; cloud</h6>
+  <p class="small text-muted mb-0">High-throughput services (Java/Spring), APIs, async and multithreaded backends, and AWS-certified cloud architecture.</p>
 </div>
 </div>
 
+<div class="col-md-4 mb-3">
+<div class="research-card">
+  <div class="card-icon"><span class="fa-solid fa-brain"></span></div>
+  <h6>ML &amp; reinforcement learning</h6>
+  <p class="small text-muted mb-0">Deep reinforcement learning and classical ML for real-world problems; prior work in vision, AR, and analytics.</p>
+</div>
+</div>
+
+</div>

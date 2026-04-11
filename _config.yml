@@ -1,4 +1,4 @@
-name: Asterios Katsifodimos
+name: Atharva Dagaonkar
 exclude:
   - CLAUDE.md
   - README.md
@@ -7,5 +7,5 @@ highlighter: rouge
 
 # URL settings for GitHub Pages
 # For local dev: bundle exec jekyll serve --baseurl ""
-url: "https://asterios.katsifodimos.com"
+url: "https://athxrva02.github.io"
 baseurl: ""

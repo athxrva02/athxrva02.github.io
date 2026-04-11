@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Asterios Katsifodimos | Assistant Professor, TU Delft"
+title: "Atharva Dagaonkar | People"
 ---
 
 <h5>People</h5>

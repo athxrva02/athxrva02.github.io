@@ -1,16 +1,17 @@
 ---
 layout: default
-title: "Short Bio — Asterios Katsifodimos"
+title: "Short Bio — Atharva Dagaonkar"
 ---
 
 ##### Short Bio
 
-Asterios Katsifodimos is an Assistant Professor at [TU Delft](https://www.tudelft.nl/) and an Amazon Scholar at [AWS](https://www.amazon.science/research-areas/information-and-knowledge-management), where he leads the [Data-intensive Systems Group](https://dis.ewi.tudelft.nl). His research focuses on cloud application runtimes, stream processing, and data discovery. His work has found applications in real-world systems including Apache Flink and systems within Amazon's Cloud.
+Atharva Dagaonkar is an MSc student in Computer Science at [TU Delft](https://www.tudelft.nl/) and an AI Engineer Intern at [Rabobank](https://www.rabobank.com/) in Utrecht. He works on research in data-intensive systems, with a current focus on agentic AI and reinforcement learning, and collaborates across Product, Security, and Data Engineering to productionize high-performance AI systems.
 
-Katsifodimos received his PhD from [INRIA Saclay](https://www.inria.fr/saclay/) and [Université Paris-Sud](https://www.universite-paris-saclay.fr) in 2013, supervised by [Ioana Manolescu](http://www-rocq.inria.fr/~manolesc/). Before joining TU Delft in 2017, he held positions at the [SAP Innovation Center](https://icn.sap.com) and [TU Berlin](https://www.dima.tu-berlin.de/), working with [Volker Markl](https://www.dima.tu-berlin.de/menue/staff/volker_markl/). He completed his BSc and MSc at the University of Cyprus, working with [Marios Dikaiakos](http://www.cs.ucy.ac.cy/~mdd/).
+Previously he was a full-stack software engineer at ARRISE (Hyderabad), specializing in Java (including Java 17 and Spring Boot) with Angular and React. He has experience architecting services for high concurrency and throughput, API design, migration planning, test-driven development, and technical interviewing and team leadership. He holds the AWS Solutions Architect – Associate certification.
 
-He is the recipient of the ACM SIGMOD Systems Award (2023), an NWO VIDI Grant (2022), the ACM DEBS Best Paper Award (2021), the EDBT Best Paper Award (2019), the EDBT Best Demo Award (2023), and the ACM SIGMOD Research Highlights Award (2015).
+His internships include research and engineering roles at the National University of Singapore, the University of Auckland, Samsung R&amp;D (PRISM), and Hewlett Packard Enterprise. He received his B.Tech in Computer Science from [Vellore Institute of Technology](https://vit.ac.in/) (2020–2024) and is completing his MSc at TU Delft (2025–2027). He has published on inventory management in augmented reality using Apple ARKit for visionOS.
 
+He was awarded Star of the Quarter at ARRISE (September 2024) for Q3 2024 performance.
 
 
 ##### Career Timeline

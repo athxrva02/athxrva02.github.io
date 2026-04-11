@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Asterios Katsifodimos | Assistant Professor, TU Delft"
+title: "Atharva Dagaonkar | Service"
 ---
 
 <h5>Scientific Community Service</h5>
