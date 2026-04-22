@@ -18,12 +18,12 @@ He was awarded Star of the Quarter at ARRISE (September 2024) for Q3 2024 perfor
 
 <div class="timeline">
 {% for item in site.data.timeline %}
-  <div class="timeline-item">
+  <div class="timeline-item{% if item.upcoming %} upcoming{% endif %}">
     <div class="timeline-year">{{ item.year }}</div>
-    <div class="timeline-dot{% if item.current %} current{% endif %}"></div>
+    <div class="timeline-dot{% if item.current %} current{% elsif item.upcoming %} upcoming{% endif %}"></div>
     <div class="timeline-body">
       <span class="{{ item.icon }} timeline-icon"></span>
-      <strong>{{ item.title }}</strong> &mdash; {{ item.org }}
+      <strong>{{ item.title }}</strong>{% if item.upcoming %}<span class="timeline-upcoming-badge">upcoming</span>{% endif %} &mdash; {% if item.org_domain %}<img src="https://img.logo.dev/{{ item.org_domain }}?token={{ site.data.env.logo_dev_token }}&size=40&format=png" class="timeline-org-logo" alt="{{ item.org }}" onerror="this.style.display='none'">{% endif %}{{ item.org }}
       {% if item.detail %}<div class="timeline-detail">{{ item.detail }}</div>{% endif %}
     </div>
   </div>

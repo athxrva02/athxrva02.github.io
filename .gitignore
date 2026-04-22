@@ -3,3 +3,4 @@ vendor/bundle
 *.DS_store
 .jekyll-cache*
 config_local.yml
+_data/env.yml

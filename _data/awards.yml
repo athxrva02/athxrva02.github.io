@@ -2,16 +2,19 @@
   type: award
 
 - name: AWS Certified Solutions Architect – Associate
-  type: award
+  type: certification
 
 - name: Designing Highly Scalable and Highly Available SQL Databases (certification)
-  type: award
+  type: certification
 
 - name: Learning Java 17 (certification)
-  type: award
+  type: certification
 
 - name: Foundations — Data, Data, Everywhere (certification)
-  type: award
+  type: certification
 
 - name: Ask Questions to Make Data-Driven Decisions (certification)
+  type: certification
+
+- name: Merit Scholarship, Vellore Institute of Technology (2020-2021)
   type: award

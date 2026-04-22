@@ -181,6 +181,50 @@ a:visited { color: var(--accent); }
   margin: 3px 3px 3px 0;
 }
 
+/* Projects page cards */
+.project-card-full {
+  border: 1px solid #e3e8ef;
+  border-radius: 8px;
+  padding: 1rem 1.1rem;
+  background: #fff;
+  height: 100%;
+  transition: box-shadow 0.2s ease;
+}
+.project-card-full:hover {
+  box-shadow: 0 4px 16px rgba(26, 79, 138, 0.10);
+}
+.project-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+.project-card-icon {
+  color: var(--accent);
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+.project-card-name {
+  flex: 1;
+  font-size: 0.95rem;
+  color: #111;
+}
+.project-card-github {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--accent);
+  white-space: nowrap;
+}
+.project-card-github:hover {
+  color: #000;
+}
+.project-card-brief {
+  font-size: 0.82rem;
+  color: #555;
+  margin: 0;
+  line-height: 1.5;
+}
+
 /* Key projects strip */
 .project-card {
   border-left: 3px solid var(--accent);
@@ -461,6 +505,34 @@ a:visited { color: var(--accent); }
 .timeline-dot.current {
   background: var(--accent);
 }
+.timeline-dot.upcoming {
+  background: #fff;
+  border: 2px dashed #4caf7d;
+}
+.timeline-item.upcoming .timeline-year {
+  color: #4caf7d;
+}
+.timeline-item.upcoming .timeline-body {
+  color: #555;
+  font-style: italic;
+}
+.timeline-item.upcoming .timeline-body strong {
+  font-style: normal;
+}
+.timeline-upcoming-badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #4caf7d;
+  border: 1px solid #4caf7d;
+  border-radius: 3px;
+  padding: 0px 5px;
+  margin-left: 6px;
+  vertical-align: middle;
+  font-style: normal;
+}
 .timeline-body {
   padding-left: 14px;
   font-size: 0.875rem;
@@ -471,6 +543,14 @@ a:visited { color: var(--accent); }
   font-size: 0.80rem;
   margin-right: 5px;
   opacity: 0.7;
+}
+.timeline-org-logo {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-right: 4px;
+  border-radius: 3px;
 }
 .timeline-detail {
   color: #777;

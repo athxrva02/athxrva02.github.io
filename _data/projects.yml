@@ -1,0 +1,11 @@
+- name: "Conversational Agent for Adversarial Presentation Preparation"
+  github: "https://github.com/athxrva02/project-alpha"
+  brief: "Developed a conversational agent for adversarial presentation preparation using LLMs, enabling efficient and effective preparation of adversarial presentations."
+
+- name: "Inventory Management in Augmented Reality for VisionOS"
+  github: "https://github.com/athxrva02/project-beta"
+  brief: "Developed an inventory management system in augmented reality for VisionOS, enabling efficient and effective inventory management."
+
+- name: "MARL framework for Sequential Decision Making"
+  github: "https://github.com/athxrva02/project-gamma"
+  brief: "Developed a MARL framework for sequential decision making, in a multi-agent setting."

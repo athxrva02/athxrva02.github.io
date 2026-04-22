@@ -1,6 +1,15 @@
-- year: "2026–"
+- year: "Summer 2026"
+  upcoming: true
+  icon: fa-brands fa-google
+  org_domain: google.com
+  title: Software Engineer Intern
+  org: Google
+  detail: "Munich, Germany · Software Engineering, Technical Foundations and Research -- Differential Privacy"
+
+- year: "Spring 2026"
   current: true
   icon: fa-solid fa-robot
+  org_domain: rabobank.com
   title: AI Engineer Intern
   org: Rabobank
   detail: "Utrecht, Netherlands · Agentic AI, R&D, and large-scale data processing"
@@ -8,54 +17,63 @@
 - year: "2025–"
   current: true
   icon: fa-solid fa-graduation-cap
+  org_domain: tudelft.nl
   title: MSc Computer Science
   org: TU Delft
-  detail: "July 2025–July 2027 · Delft, Netherlands"
+  detail: "July 2025–July 2027 · Delft, Netherlands · Software Engineering, Machine Learning Applications, Distributed Systems"
 
 - year: "2024–2025"
   icon: fa-solid fa-code
+  org_domain: arrise.com
   title: ASE — Full Stack
   org: ARRISE, Hyderabad
   detail: "Java 17, Spring Boot, Angular/React · Team leadership, scalable services, TDD"
 
 - year: "2024"
   icon: fa-solid fa-code
+  org_domain: arrise.com
   title: Software Engineer Intern
   org: ARRISE, Hyderabad
   detail: "Backend APIs for Live Casino Integration · Angular components, CI/CD"
 
 - year: "2023"
   icon: fa-solid fa-flask
+  org_domain: nus.edu.sg
   title: Research Intern
   org: National University of Singapore
   detail: "ML and AR for 3D model generation in education"
 
 - year: "2023"
   icon: fa-solid fa-location-dot
+  org_domain: auckland.ac.nz
   title: Intern
   org: University of Auckland
   detail: "Threat detection and geoparsing SaaS · Python, JavaScript"
 
 - year: "2022–2023"
   icon: fa-solid fa-microchip
+  org_domain: samsung.com
   title: Research Intern, PRISM
   org: Samsung India, Bengaluru
   detail: "Boolean expression trees, indexing, and event matching"
 
 - year: "2022–2023"
   icon: fa-solid fa-chart-line
+  org_domain: nus.edu.sg
   title: ML and Analytics Intern
   org: National University of Singapore
   detail: "Water contamination detection · Python, deep learning, NASA data on Azure"
 
 - year: "2022"
   icon: fa-solid fa-database
+  org_domain: hpe.com
   title: Big Data Intern
   org: Hewlett Packard Enterprise, Singapore
   detail: "PySpark project on Microsoft Azure"
 
 - year: "2020–2024"
   icon: fa-solid fa-graduation-cap
+  org_domain: vit.ac.in
   title: B.Tech Computer Science
   org: Vellore Institute of Technology
   detail: "Vellore, India"
