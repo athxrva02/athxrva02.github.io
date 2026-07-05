@@ -1,11 +1,27 @@
 - name: "Conversational Agent for Adversarial Presentation Preparation"
-  github: "https://github.com/athxrva02/project-alpha"
+  github: "https://github.com/athxrva02/adversarial-presentation-agent"
   brief: "Developed a conversational agent for adversarial presentation preparation using LLMs, enabling efficient and effective preparation of adversarial presentations."
 
 - name: "Inventory Management in Augmented Reality for VisionOS"
-  github: "https://github.com/athxrva02/project-beta"
+  github: "https://github.com/athxrva02/TARP-Inventory-VisionOS"
   brief: "Developed an inventory management system in augmented reality for VisionOS, enabling efficient and effective inventory management."
 
 - name: "MARL framework for Sequential Decision Making"
-  github: "https://github.com/athxrva02/project-gamma"
+  github: "https://github.com/athxrva02/MARL"
   brief: "Developed a MARL framework for sequential decision making, in a multi-agent setting."
+
+- name: "Mini Dynamo"
+  github: "https://github.com/micepram/mini-dynamo"
+  brief: "Developed a mini version of the Amazon DynamoDB, a distributed key-value store, using Java and Spring Boot, with a focus on scalability and fault-tolerance."
+
+- name: "GreenField: Cross Boundary JSON field analysis"
+  github: "https://github.com/athxrva02/GreenField"
+  brief: "A VS Code extension that detects unused ('dead') JSON fields between frontend and backend codebases. Fields the backend sends but the frontend never reads — and vice versa — are flagged as inline diagnostics with estimated wasted bytes and CO₂ impact."
+
+- name: "Distributed Shopping System"
+  github: "https://github.com/athxrva02/dds26-team16"
+  brief: "Fault-tolerant distributed e-commerce backend with Flask microservices, Redis Streams, and Nginx. Supports both Saga and 2PC checkout protocols with Sentinel failover, idempotency, and background crash recovery."
+
+- name: "JPEG Re-encoding Confound Control Dataset"
+  github: "https://github.com/athxrva02/FRMDL-Control-Dataset"
+  brief: "A A controlled-experiment dataset that isolates one acknowledged-but-unmeasured confound in ImageNet-C."
