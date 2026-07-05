@@ -1,13 +1,13 @@
-# - year: "Summer 2026"
-#   upcoming: true
-#   icon: fa-brands fa-google
-#   org_domain: google.com
-#   title: Software Engineer Intern
-#   org: Google
-#   detail: "Munich, Germany · Software Engineering, Technical Foundations and Research -- Differential Privacy"
+- year: "Summer 2026"
+  upcoming: true
+  icon: fa-brands fa-google
+  org_domain: google.com
+  title: Software Engineer Intern
+  org: Google
+  detail: "Munich, Germany · Software Engineering, Technical Foundations and Research"
 
 - year: "Spring 2026"
-  current: true
+  current: false
   icon: fa-solid fa-robot
   org_domain: rabobank.com
   title: AI Engineer Intern
