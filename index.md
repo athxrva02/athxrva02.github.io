@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Atharva Dagaonkar | AI Engineer Intern, Rabobank | MSc Computer Science, TU Delft"
+title: "Atharva Dagaonkar | SWE Intern, Google | MSc Computer Science, TU Delft"
 ---
 
 <!-- Hero -->
@@ -8,11 +8,11 @@ title: "Atharva Dagaonkar | AI Engineer Intern, Rabobank | MSc Computer Science,
 <div class="col-sm-8">
 
 <p class="lead lead-xl"><strong>
-MSc Computer Science at <a href="https://www.tudelft.nl/">TU Delft</a> and AI Engineer Intern at <a href="https://www.rabobank.com/">Rabobank</a> (Utrecht).</strong>
+MSc Computer Science at <a href="https://www.tudelft.nl/">TU Delft</a> and SWE Intern at <a href="https://www.google.com/">Google</a> (Munich).</strong>
 </p>
 
 <p>
-I work on research in multi-agent systems and am currently focused on agentic AI and reinforcement learning at Rabobank, partnering across Product, Security, and Data Engineering to productionize high-performance AI systems. Previously I was a team lead and full-stack software engineer at ARRISE, specializing in Java with Angular and React, with experience in scalable architecture, agile delivery, and test-driven development. I hold the AWS Solutions Architect – Associate certification.<br/> <br/> Earlier roles include research and engineering internships at the National University of Singapore, the University of Auckland, Samsung R&amp;D, and Hewlett Packard Enterprise. I received my Bachelor of Technology in Computer Science from Vellore Institute of Technology (2020–2024) and am pursuing my MSc at TU Delft (2025–2027). I have published on inventory management in augmented reality using Apple ARKit for visionOS.
+I work on research in differential privacy and reverse engineering at Google. Previously I was an AI Engineer Intern at Rabobank, working on multi agent systems. Before starting my masters, I was a team lead and full-stack software engineer at ARRISE, specializing in Java with Angular and React, with experience in scalable architecture, agile delivery, and test-driven development. I hold the AWS Solutions Architect – Associate certification.<br/> <br/> Earlier roles include research and engineering internships at the National University of Singapore, the University of Auckland, Samsung R&amp;D, and Hewlett Packard Enterprise. I received my Bachelor of Technology in Computer Science from Vellore Institute of Technology (2020–2024) and am pursuing my MSc at TU Delft (2025–2027). I have published on inventory management in augmented reality using Apple ARKit for visionOS.
 </p>
 
 <h5 style="margin-top:1.4rem;">Career timeline</h5>
