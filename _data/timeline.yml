@@ -1,3 +1,11 @@
+- year: "Winter 2026 - Summer 2027"
+  current: false
+  icon: fa-solid fa-building-columns
+  org_domain: ing.nl
+  title: Research Intern
+  org: ING Bank
+  detail: "Amsterdam, The Netherlands · Software Engineering, Agentic Platform Engineering"
+
 - year: "Summer 2026"
   current: true
   icon: fa-brands fa-google
