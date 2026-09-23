@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Atharva Dagaonkar | SWE Intern, Google | MSc Computer Science, TU Delft"
+resume_url: "https://drive.google.com/file/d/1wrWekyG910taE2ozjqwWYiodHIBFZTAK/view?usp=sharing" # 
 ---
 
 <!-- Hero -->
@@ -49,6 +50,7 @@ At Google I work on building a platform for large-scale agentic migrations: auto
   <div class="profile-socials">
     <a href="https://www.linkedin.com/in/atharva-dagaonkar"><span class="fa-brands fa-linkedin"></span> LinkedIn</a>
     <a href="https://github.com/athxrva02"><span class="fa-brands fa-github"></span> GitHub</a>
+    {% if page.resume_url != '' %}<a href="{{ page.resume_url }}" target="_blank" rel="noopener noreferrer"><span class="fa-solid fa-file-lines"></span> Resume</a>{% endif %}
   </div>
 </div>
 </div>
