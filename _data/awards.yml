@@ -1,20 +1,23 @@
-- name: Star of the Quarter, ARRISE (September 2024, Q3 2024)
+- name: Star of the Quarter
   type: award
+  detail: "ARRISE · Q3 2024 (awarded September 2024)"
 
 - name: AWS Certified Solutions Architect – Associate
   type: certification
+  detail: "Amazon Web Services"
 
-- name: Designing Highly Scalable and Highly Available SQL Databases (certification)
+- name: Designing Highly Scalable and Highly Available SQL Databases
   type: certification
 
-- name: Learning Java 17 (certification)
+- name: Learning Java 17
   type: certification
 
-- name: Foundations — Data, Data, Everywhere (certification)
+- name: Foundations — Data, Data, Everywhere
   type: certification
 
-- name: Ask Questions to Make Data-Driven Decisions (certification)
+- name: Ask Questions to Make Data-Driven Decisions
   type: certification
 
-- name: Merit Scholarship, Vellore Institute of Technology (2020-2021)
+- name: Merit Scholarship
   type: award
+  detail: "Vellore Institute of Technology · 2020–2021"

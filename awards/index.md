@@ -7,26 +7,28 @@ title: "Awards & Certifications — Atharva Dagaonkar"
 
 ### Awards
 
-<table class="teaching-table" style="margin-top:0.5rem;margin-bottom:2rem;">
-  <tbody>
-    {% for a in site.data.awards %}{% if a.type == 'award' %}
-    <tr>
-      <td><span class="fa-solid fa-trophy" style="color:var(--accent);"></span></td>
-      <td>{{ a.name }}</td>
-    </tr>
-    {% endif %}{% endfor %}
-  </tbody>
-</table>
+<ul class="recognition-list">
+  {% for a in site.data.awards %}{% if a.type == 'award' %}
+  <li class="recognition-item">
+    <span class="fa-solid fa-trophy recognition-icon" aria-hidden="true"></span>
+    <div>
+      <strong class="recognition-name">{{ a.name }}</strong>
+      {% if a.detail %}<div class="recognition-detail">{{ a.detail }}</div>{% endif %}
+    </div>
+  </li>
+  {% endif %}{% endfor %}
+</ul>
 
 ### Certifications
 
-<table class="teaching-table" style="margin-top:0.5rem;">
-  <tbody>
-    {% for a in site.data.awards %}{% if a.type == 'certification' %}
-    <tr>
-      <td><span class="fa-solid fa-certificate" style="color:var(--accent);"></span></td>
-      <td>{{ a.name }}</td>
-    </tr>
-    {% endif %}{% endfor %}
-  </tbody>
-</table>
+<ul class="recognition-list">
+  {% for a in site.data.awards %}{% if a.type == 'certification' %}
+  <li class="recognition-item">
+    <span class="fa-solid fa-certificate recognition-icon" aria-hidden="true"></span>
+    <div>
+      <strong class="recognition-name">{{ a.name }}</strong>
+      {% if a.detail %}<div class="recognition-detail">{{ a.detail }}</div>{% endif %}
+    </div>
+  </li>
+  {% endif %}{% endfor %}
+</ul>

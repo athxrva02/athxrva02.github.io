@@ -1,6 +1,7 @@
 - id: arkit-inventory-visionos
   year: 2024
-  label: "AR / visionOS"
+  label: "ICUIS 2024"
   title: "Inventory Management in Augmented Reality Using Apple ARKit for VisionOS"
-  authors: "Atharva Dagaonkar"
-  venue: "Research publication; developed in connection with research at the National University of Singapore"
+  authors: "Atharva Manoj Dagaonkar, Pramika Garg, Kakelli Anil Kumar"
+  venue: "2024 4th International Conference on Ubiquitous Computing and Intelligent Information Systems (ICUIS)"
+  link: "https://doi.org/10.1109/ICUIS64676.2024.10867167"

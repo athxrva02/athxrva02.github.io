@@ -7,14 +7,21 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-family: 'Inter', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #253040;
   padding-top: 70px;
   padding-bottom: 10px;
 }
 
-p { 
-  text-align: justify; 
+p {
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.3;
 }
 
 .theme-dropdown .dropdown-menu {
@@ -118,8 +125,13 @@ h1, h2 {
 h3, h4 { border-bottom: 1px solid #D3D3D3 }
 
 a         { color: var(--accent); text-decoration: none; }
-a:hover   { color: #000; text-decoration: none; }
+a:hover   { color: #000; text-decoration: underline; }
 a:visited { color: var(--accent); }
+.container p a { text-decoration: underline; text-underline-offset: 2px; }
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
 
 /* Research area cards */
 .research-card {
@@ -154,7 +166,7 @@ a:visited { color: var(--accent); }
   padding: 1px 7px;
   font-size: 0.75rem;
   margin: 2px 2px 0 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: inherit;
   font-weight: 600;
   letter-spacing: 0.02em;
 }
@@ -206,11 +218,11 @@ a:visited { color: var(--accent); }
 }
 .project-card-name {
   flex: 1;
-  font-size: 0.95rem;
+  font-size: 1rem;
   color: #111;
 }
 .project-card-github {
-  font-size: 0.78rem;
+  font-size: 0.875rem;
   font-weight: 600;
   color: var(--accent);
   white-space: nowrap;
@@ -219,7 +231,7 @@ a:visited { color: var(--accent); }
   color: #000;
 }
 .project-card-brief {
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   color: #555;
   margin: 0;
   line-height: 1.5;
@@ -266,8 +278,11 @@ a:visited { color: var(--accent); }
   display: flex;
   align-items: flex-start;
   gap: 0.55rem;
-  font-size: 0.80rem;
+  font-size: 0.875rem;
   line-height: 1.4;
+}
+.profile-contact-item strong {
+  font-weight: 700;
 }
 .profile-contact-icon {
   color: var(--accent);
@@ -282,7 +297,7 @@ a:visited { color: var(--accent); }
   gap: 0.4rem 0.9rem;
 }
 .profile-socials a {
-  font-size: 0.80rem;
+  font-size: 0.875rem;
   font-weight: 600;
   color: var(--accent);
   display: inline-flex;
@@ -332,10 +347,10 @@ a:visited { color: var(--accent); }
   background: #f8fafd;
 }
 
-/* Publication highlight cards — 2×3 grid */
+/* Publication highlight cards */
 .pub-cards-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
   gap: 1rem;
   margin-bottom: 2rem;
 }
@@ -359,7 +374,7 @@ a:visited { color: var(--accent); }
   width: 140px;
   min-width: 140px;
   flex-shrink: 0;
-  text-align: right;
+  text-align: left;
 }
 .pub-highlight-venue {
   font-size: 0.75rem;
@@ -375,16 +390,16 @@ a:visited { color: var(--accent); }
 }
 .pub-highlight-title {
   font-weight: 700;
-  font-size: 0.875rem;
+  font-size: 0.9rem;
   line-height: 1.4;
 }
 .pub-highlight-authors {
-  font-size: 0.80rem;
+  font-size: 0.85rem;
   color: #333;
   margin-top: 1px;
 }
 .pub-highlight-venue-text {
-  font-size: 0.75rem;
+  font-size: 0.825rem;
   color: var(--accent);
   font-weight: 600;
   margin-top: 2px;
@@ -392,8 +407,8 @@ a:visited { color: var(--accent); }
 }
 .pub-highlight-links {
   margin-top: 0.35rem;
-  text-align: right;
-  font-size: 0.80rem;
+  text-align: left;
+  font-size: 0.85rem;
   font-weight: 600;
 }
 .pub-highlight-links a {
@@ -428,17 +443,17 @@ a:visited { color: var(--accent); }
 }
 .pub-card-title {
   font-weight: 700;
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 1.4;
   margin-top: 0.45rem;
 }
 .pub-card-authors {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   color: #555;
   margin-top: 0.2rem;
 }
 .pub-card-desc {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: #444;
   font-style: italic;
   margin-top: 0.5rem;
@@ -449,27 +464,43 @@ a:visited { color: var(--accent); }
   flex-wrap: wrap;
   gap: 0.6rem;
   margin-top: 0.9rem;
-  font-size: 0.78rem;
+  font-size: 0.875rem;
   font-weight: 600;
   padding-top: 0.6rem;
   border-top: 1px solid #e3e8ef;
 }
 
 @media (max-width: 575.98px) {
-  .pub-cards-grid {
-    grid-template-columns: 1fr;
+  .pub-highlight-card {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .pub-highlight-venue-col {
+    width: auto;
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .pub-highlight-links {
+    margin-top: 0;
+  }
+  .pub-highlight-links a {
+    display: inline-block;
+    margin-top: 0;
   }
 }
 
 /* Career timeline */
 .timeline {
+  --timeline-date-width: 220px;
   position: relative;
   margin: 0.25rem 0;
 }
 .timeline::before {
   content: '';
   position: absolute;
-  left: 105px;
+  left: calc(var(--timeline-date-width) + 5px);
   top: 6px;
   bottom: 6px;
   width: 2px;
@@ -482,14 +513,15 @@ a:visited { color: var(--accent); }
   margin-bottom: 1.1rem;
 }
 .timeline-year {
-  width: 100px;
-  min-width: 100px;
-  text-align: right;
-  padding-right: 24px;
+  width: var(--timeline-date-width);
+  min-width: var(--timeline-date-width);
+  text-align: left;
+  padding-right: 20px;
   font-weight: 700;
   color: var(--accent);
-  font-size: 0.80rem;
+  font-size: 0.85rem;
   padding-top: 3px;
+  white-space: nowrap;
 }
 .timeline-dot {
   width: 12px;
@@ -535,8 +567,44 @@ a:visited { color: var(--accent); }
 }
 .timeline-body {
   padding-left: 14px;
-  font-size: 0.875rem;
+  min-width: 0;
+  font-size: 0.9rem;
   line-height: 1.5;
+}
+
+@media (max-width: 991.98px) {
+  .timeline {
+    padding-left: 26px;
+  }
+  .timeline::before {
+    left: 5px;
+  }
+  .timeline-item {
+    display: block;
+  }
+  .timeline-year {
+    width: auto;
+    min-width: 0;
+    padding: 0;
+    margin-bottom: 0.1rem;
+  }
+  .timeline-dot {
+    position: absolute;
+    left: -26px;
+    top: 3px;
+    margin-top: 0;
+  }
+  .timeline-body {
+    padding-left: 0;
+  }
+}
+.timeline-title {
+  font-weight: 700;
+}
+.timeline-location {
+  display: block;
+  color: #253040;
+  margin-top: 2px;
 }
 .timeline-icon {
   color: var(--accent);
@@ -553,9 +621,40 @@ a:visited { color: var(--accent); }
   border-radius: 3px;
 }
 .timeline-detail {
-  color: #777;
-  font-size: 0.80rem;
-  margin-top: 1px;
+  color: #53606e;
+  font-size: 0.85rem;
+  margin-top: 2px;
+}
+
+/* Awards and certifications */
+.recognition-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 2rem;
+}
+.recognition-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  padding: 0.9rem 0.35rem;
+  border-bottom: 1px solid #e3e8ef;
+}
+.recognition-icon {
+  color: var(--accent);
+  width: 1.25rem;
+  text-align: center;
+  margin-top: 0.25rem;
+}
+.recognition-name {
+  display: block;
+  color: #253040;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.recognition-detail {
+  color: #53606e;
+  font-size: 0.875rem;
+  margin-top: 0.15rem;
 }
 
 /* People section */
@@ -694,12 +793,6 @@ a:visited { color: var(--accent); }
 #people {
   padding-top: 0.5rem;
 }
-
-
-
-
-
-
 
 
 

@@ -7,7 +7,7 @@ title: "Atharva Dagaonkar | Publications"
 
 <div id="publications" class="row" style="padding-top: 1rem;">
 
-<div style="text-align: justify;" class="col-sm-12">
+<div class="col-sm-12">
 
 
 <div class="pub-cards-grid">
@@ -20,8 +20,7 @@ title: "Atharva Dagaonkar | Publications"
 </div>
 
 <h5>All publications</h5>
-<p class="text-muted"><em>PDFs and project links will appear here when available. For an overview of my experience, see my <a href="https://www.linkedin.com/in/atharva-dagaonkar">LinkedIn</a> or <a href="https://github.com/athxrva02">GitHub</a>.</em></p>
-<br/>
+<p class="text-muted">Open the paper link below to view the publisher's record.</p>
 {% assign pubs_by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
 {% for year_group in pubs_by_year %}
 <h6 style="margin-top:1.2rem;"><strong>{{ year_group.name }}</strong></h6>
@@ -32,7 +31,7 @@ title: "Atharva Dagaonkar | Publications"
       <span class="pub-highlight-venue">{{ pub.label }}</span>
       <div class="pub-highlight-links">
         {% if pub.pdf %}{% if pub.pdf contains "http" %}<a href="{{ pub.pdf }}"><span class="fa-solid fa-file-pdf"></span> PDF</a>{% else %}<a href="{{ site.url}}/{{ pub.pdf }}"><span class="fa-solid fa-file-pdf"></span> PDF</a>{% endif %}{% endif %}
-        {% if pub.link %}<a href="{{ pub.link }}"><span class="fa-solid fa-up-right-from-square"></span> Link</a>{% endif %}
+        {% if pub.link %}<a href="{{ pub.link }}" aria-label="Paper: {{ pub.title }}"><span class="fa-solid fa-up-right-from-square" aria-hidden="true"></span> Paper</a>{% endif %}
         {% if pub.poster %}<a href="{{ site.url}}/{{ pub.poster }}"><span class="fa-solid fa-file-pdf"></span> Poster</a>{% endif %}
         {% if pub.slides %}<a href="{{ site.url}}/{{ pub.slides }}"><span class="fa-solid fa-file-pdf"></span> Slides</a>{% endif %}
       </div>

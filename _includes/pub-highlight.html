@@ -39,7 +39,7 @@ Publication data should have:
       {%- endif -%}
     {%- endif -%}
     {%- if include.publication.link -%}
-      <a href="{{ include.publication.link }}"><span class="fa-solid fa-up-right-from-square"></span> Link</a>
+      <a href="{{ include.publication.link }}" aria-label="Paper: {{ include.publication.title }}"><span class="fa-solid fa-up-right-from-square" aria-hidden="true"></span> Paper</a>
     {%- endif -%}
     {%- if include.publication.poster -%}
       <a href="{{ site.url }}/{{ include.publication.poster }}"><span class="fa-solid fa-file-pdf"></span> Poster</a>

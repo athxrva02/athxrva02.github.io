@@ -2,34 +2,27 @@
 layout: default
 title: "Atharva Dagaonkar | SWE Intern, Google | MSc Computer Science, TU Delft"
 resume_url: "https://drive.google.com/file/d/1wrWekyG910taE2ozjqwWYiodHIBFZTAK/view?usp=sharing" # 
+scholar_url: "https://scholar.google.com/citations?hl=en&user=dHQlZFgAAAAJ"
 ---
 
 <!-- Hero -->
 <div id="top" class="row align-items-start">
 <div class="col-sm-8">
 
-<p class="lead lead-xl"><strong>
-MSc Computer Science at <a href="https://www.tudelft.nl/">TU Delft</a> and SWE Intern at <a href="https://www.google.com/">Google</a> (Munich).</strong>
+<p class="lead lead-xl">
+<strong>MSc Computer Science</strong> at <a href="https://www.tudelft.nl/">TU Delft</a> and <strong>Software Engineering Intern</strong> at <a href="https://www.google.com/">Google</a> in <strong>Munich</strong>.
 </p>
 
 <p>
-At Google I work on building a platform for large-scale agentic migrations: automated, hands-free moves from legacy and unsafe C++ libraries to verified Rust replacements. Post-Google, I will be joining ING's R&D team in Amsterdam to research on agentic tooling for large engineering teams. Prior to joining Google, I was an AI Engineer Intern at Rabobank, working on multi agent systems. Before starting my masters, I was a team lead and full-stack software engineer at ARRISE, specializing in Java with Angular and React, with experience in scalable architecture, agile delivery, and test-driven development. I hold the AWS Solutions Architect – Associate certification.<br/> <br/> Earlier roles include research and engineering internships at the National University of Singapore, the University of Auckland, Samsung R&amp;D, and Hewlett Packard Enterprise. I received my Bachelor of Technology in Computer Science from Vellore Institute of Technology (2020–2024) and am pursuing my MSc at TU Delft (2025–2027). I have published on inventory management in augmented reality using Apple ARKit for visionOS.
+At <strong>Google</strong> I work on building a platform for <strong>large-scale agentic migrations</strong>: automated, hands-free moves from legacy and unsafe C++ libraries to verified Rust replacements. After Google, I will join <strong>ING</strong>'s R&amp;D team in Amsterdam to research agentic tooling for large engineering teams. Previously, I worked on <strong>multi-agent systems</strong> as an AI Engineer Intern at <strong>Rabobank</strong> and was a team lead and full-stack software engineer at <strong>ARRISE</strong>. I hold the AWS Solutions Architect – Associate certification.
+</p>
+
+<p>
+Earlier roles include research and engineering internships at the National University of Singapore, the University of Auckland, <strong>Samsung R&amp;D</strong>, and <strong>Hewlett Packard Enterprise</strong>. I received my Bachelor of Technology in Computer Science from Vellore Institute of Technology (2020–2024) and am pursuing my MSc at TU Delft (2025–2027). I have a first-authored <a href="https://doi.org/10.1109/ICUIS64676.2024.10867167">paper on inventory management in augmented reality using Apple ARKit for visionOS</a>.
 </p>
 
 <h5 style="margin-top:1.4rem;">Career timeline</h5>
-<div class="timeline">
-{% for item in site.data.timeline %}
-  <div class="timeline-item{% if item.upcoming %} upcoming{% endif %}">
-    <div class="timeline-year">{{ item.year }}</div>
-    <div class="timeline-dot{% if item.current %} current{% elsif item.upcoming %} upcoming{% endif %}"></div>
-    <div class="timeline-body">
-      <!-- <span class="{{ item.icon }} timeline-icon"></span> -->
-      <strong>{{ item.title }}</strong>{% if item.upcoming %}<span class="timeline-upcoming-badge">upcoming</span>{% endif %} &mdash; {% if item.org_domain %}<img src="https://img.logo.dev/{{ item.org_domain }}?token={{ site.data.env.logo_dev_token }}&size=40&format=png" class="timeline-org-logo" alt="{{ item.org }}" onerror="this.style.display='none'">{% endif %}{{ item.org }}
-      {% if item.detail %}<div class="timeline-detail">{{ item.detail }}</div>{% endif %}
-    </div>
-  </div>
-{% endfor %}
-</div>
+{% include career-timeline.html %}
 
 </div>
 <div class="col-md-4">
@@ -39,17 +32,18 @@ At Google I work on building a platform for large-scale agentic migrations: auto
   <div class="profile-contact">
     <div class="profile-contact-item">
       <span class="fa-solid fa-envelope profile-contact-icon"></span>
-      <a href="mailto:dagaonkaratharva@gmail.com">dagaonkaratharva@gmail.com</a>
+      <a href="mailto:adagaonkar@tudelft.nl">adagaonkar@tudelft.nl</a>
     </div>
     <div class="profile-contact-item">
       <span class="fa-solid fa-location-dot profile-contact-icon"></span>
-      <span>Delft, South Holland, Netherlands</span>
+      <strong>Delft, South Holland, Netherlands</strong>
     </div>
   </div>
   <div class="profile-divider"></div>
   <div class="profile-socials">
     <a href="https://www.linkedin.com/in/atharva-dagaonkar"><span class="fa-brands fa-linkedin"></span> LinkedIn</a>
     <a href="https://github.com/athxrva02"><span class="fa-brands fa-github"></span> GitHub</a>
+    {% if page.scholar_url != '' %}<a href="{{ page.scholar_url }}" target="_blank" rel="noopener noreferrer"><span class="fa-solid fa-graduation-cap" aria-hidden="true"></span> Google Scholar</a>{% endif %}
     {% if page.resume_url != '' %}<a href="{{ page.resume_url }}" target="_blank" rel="noopener noreferrer"><span class="fa-solid fa-file-lines"></span> Resume</a>{% endif %}
   </div>
 </div>
