@@ -527,43 +527,44 @@ a:focus-visible, button:focus-visible {
   width: 12px;
   height: 12px;
   min-width: 12px;
-  background: #fff;
-  border: 2px solid var(--accent);
+  background: #aab7c5;
+  border: 2px solid #aab7c5;
   border-radius: 50%;
   margin-top: 3px;
   position: relative;
   z-index: 1;
 }
-.timeline-dot.current {
+.timeline-dot--current {
   background: var(--accent);
+  border-color: var(--accent);
 }
-.timeline-dot.upcoming {
+.timeline-dot--upcoming {
   background: #fff;
-  border: 2px dashed #4caf7d;
+  border: 2px dashed var(--accent);
 }
-.timeline-item.upcoming .timeline-year {
-  color: #4caf7d;
+.timeline-item--past .timeline-year {
+  color: #657487;
 }
-.timeline-item.upcoming .timeline-body {
-  color: #555;
-  font-style: italic;
-}
-.timeline-item.upcoming .timeline-body strong {
-  font-style: normal;
-}
-.timeline-upcoming-badge {
+.timeline-status {
   display: inline-block;
-  font-size: 0.65rem;
+  font-size: 0.7rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #4caf7d;
-  border: 1px solid #4caf7d;
+  color: var(--accent);
+  border: 1px solid var(--accent);
   border-radius: 3px;
-  padding: 0px 5px;
+  padding: 0 5px;
   margin-left: 6px;
   vertical-align: middle;
-  font-style: normal;
+  white-space: nowrap;
+}
+.timeline-status--current {
+  background: #e8f0f8;
+  border-color: #c5d9eb;
+}
+.timeline-status--upcoming {
+  border-style: dashed;
 }
 .timeline-body {
   padding-left: 14px;
@@ -794,7 +795,6 @@ a:focus-visible, button:focus-visible {
 #people {
   padding-top: 0.5rem;
 }
-
 
 
 

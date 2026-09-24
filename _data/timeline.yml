@@ -1,5 +1,5 @@
 - year: "October 2026 – May 2027"
-  current: false
+  status: upcoming
   icon: fa-solid fa-building-columns
   org_domain: ing.nl
   title: Research Intern
@@ -9,7 +9,7 @@
   detail: "Software Engineering, Agentic Platform Engineering"
 
 - year: "July 2026 - October 2026"
-  current: true
+  status: current
   icon: fa-brands fa-google
   org_domain: google.com
   title: Software Engineer Intern
@@ -18,7 +18,7 @@
   detail: "Software Engineering, Google Core, Agentic Security and Migrations"
 
 - year: "Feb 2026 - June 2026"
-  current: false
+  status: past
   icon: fa-solid fa-robot
   org_domain: rabobank.com
   title: AI Engineer Intern
@@ -27,7 +27,7 @@
   detail: "Agentic AI, R&D, and large-scale data processing"
 
 - year: "2025 – 2027"
-  current: true
+  status: current
   icon: fa-solid fa-graduation-cap
   org_domain: tudelft.nl
   title: MSc Computer Science
@@ -36,6 +36,7 @@
   detail: "July 2025–July 2027 · Software Engineering, Machine Learning Applications, Distributed Systems"
 
 - year: "July 2024 – July 2025"
+  status: past
   icon: fa-solid fa-code
   org_domain: arrise.com
   title: ASE — Full Stack
@@ -44,6 +45,7 @@
   detail: "Java 17, Spring Boot, Angular/React · Team leadership, scalable services, TDD"
 
 - year: "Jan 2024 - June 2024"
+  status: past
   icon: fa-solid fa-code
   org_domain: arrise.com
   title: Software Engineer Intern
@@ -52,6 +54,7 @@
   detail: "Backend APIs for Live Casino Integration · Angular components, CI/CD"
 
 - year: "Sep 2023 - Dec 2023"
+  status: past
   icon: fa-solid fa-flask
   org_domain: nus.edu.sg
   title: Research Intern
@@ -59,6 +62,7 @@
   detail: "ML and AR for 3D model generation in education"
 
 - year: "July 2023 - Aug 2023"
+  status: past
   icon: fa-solid fa-location-dot
   org_domain: auckland.ac.nz
   title: Intern
@@ -66,6 +70,7 @@
   detail: "Threat detection and geoparsing SaaS · Python, JavaScript"
 
 - year: "Dec 2022 – June 2023"
+  status: past
   icon: fa-solid fa-microchip
   org_domain: samsung.com
   title: Research Intern, PRISM
@@ -74,6 +79,7 @@
   detail: "Boolean expression trees, indexing, and event matching"
 
 - year: "Dec 2022 – Jan 2023"
+  status: past
   icon: fa-solid fa-chart-line
   org_domain: nus.edu.sg
   title: ML and Analytics Intern
@@ -81,6 +87,7 @@
   detail: "Water contamination detection · Python, deep learning, NASA data on Azure"
 
 - year: "Dec 2022"
+  status: past
   icon: fa-solid fa-database
   org_domain: hpe.com
   title: Big Data Intern
@@ -89,6 +96,7 @@
   detail: "PySpark project on Microsoft Azure"
 
 - year: "2020–2024"
+  status: past
   icon: fa-solid fa-graduation-cap
   org_domain: vit.ac.in
   title: B.Tech Computer Science

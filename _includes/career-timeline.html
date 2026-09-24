@@ -1,10 +1,11 @@
 <div class="timeline">
 {% for item in site.data.timeline %}
-  <div class="timeline-item{% if item.upcoming %} upcoming{% endif %}">
+  {% assign status = item.status | default: 'past' %}
+  <div class="timeline-item timeline-item--{{ status }}">
     <div class="timeline-year">{{ item.year }}</div>
-    <div class="timeline-dot{% if item.current %} current{% elsif item.upcoming %} upcoming{% endif %}"></div>
+    <div class="timeline-dot timeline-dot--{{ status }}" aria-hidden="true"></div>
     <div class="timeline-body">
-      <strong class="timeline-title">{{ item.title }}</strong>{% if item.upcoming %}<span class="timeline-upcoming-badge">upcoming</span>{% endif %} &mdash; {% if item.org_domain %}<img src="https://img.logo.dev/{{ item.org_domain }}?token={{ site.data.env.logo_dev_token }}&size=40&format=png" class="timeline-org-logo" alt="" onerror="this.style.display='none'">{% endif %}{{ item.org }}
+      <strong class="timeline-title">{{ item.title }}</strong>{% if status == 'current' or status == 'upcoming' %}<span class="timeline-status timeline-status--{{ status }}">{{ status | capitalize }}</span>{% endif %} &mdash; {% if item.org_domain %}<img src="https://img.logo.dev/{{ item.org_domain }}?token={{ site.data.env.logo_dev_token }}&size=40&format=png" class="timeline-org-logo" alt="" onerror="this.style.display='none'">{% endif %}{{ item.org }}
       {% if item.location %}{% if item.location_bold == false %}<span class="timeline-location">{{ item.location }}</span>{% else %}<strong class="timeline-location">{{ item.location }}</strong>{% endif %}{% endif %}
       {% if item.detail %}<div class="timeline-detail">{{ item.detail }}</div>{% endif %}
     </div>

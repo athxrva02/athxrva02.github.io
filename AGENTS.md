@@ -67,7 +67,7 @@ The main content areas are driven entirely by YAML data files — no content cha
 - `_data/teaching.yml` — institutions with nested course arrays, rendered on `/teaching/`
 - `_data/service.yml` — `intro`, `chairs`, and `pc_member` arrays; rendered on `/service/`
 - `_data/awards.yml` — awards and grants shown on the home page; each entry has `name` and `type` (`award` or `grant`)
-- `_data/timeline.yml` — career timeline entries rendered on `/bio/`; each entry has `year`, `icon`, `title`, `org`, optional `detail` and `current`
+- `_data/timeline.yml` — career timeline entries rendered on `/bio/` and the home page; each entry has `year`, `status`, `icon`, `title`, `org`, and optional `location` and `detail`
 
 **Convention: no HTML in `_data/` files.** All fields must be plain text. Presentation (icons, links, badges) is handled exclusively in templates and includes. For structured links (e.g. a collaborator), use separate `_name` / `_link` fields and let the template render the anchor tag.
 
@@ -140,11 +140,12 @@ pc_member:
 ### Timeline entry structure
 
 ```yaml
-- year: "2025–"
-  current: true           # optional; marks ongoing positions
+- year: "2025–2027"
+  status: current         # current, past, or upcoming
   icon: fa-solid fa-cloud
   title: "Amazon Scholar"
   org: "AWS"
+  location: "Berlin, Germany"  # optional
   detail: "Deep Science for Systems Group (DS3)"  # optional
 ```
 
