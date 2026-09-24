@@ -515,8 +515,8 @@ a:focus-visible, button:focus-visible {
 .timeline-year {
   width: var(--timeline-date-width);
   min-width: var(--timeline-date-width);
-  text-align: left;
-  padding-right: 20px;
+  text-align: right;
+  padding-right: 24px;
   font-weight: 700;
   color: var(--accent);
   font-size: 0.85rem;
@@ -587,6 +587,7 @@ a:focus-visible, button:focus-visible {
     min-width: 0;
     padding: 0;
     margin-bottom: 0.1rem;
+    text-align: left;
   }
   .timeline-dot {
     position: absolute;
@@ -793,7 +794,6 @@ a:focus-visible, button:focus-visible {
 #people {
   padding-top: 0.5rem;
 }
-
 
 
 
