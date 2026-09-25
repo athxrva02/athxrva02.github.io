@@ -33,7 +33,7 @@ Earlier roles include research and engineering internships at the National Unive
     </div>
     <div class="profile-contact-item">
       <span class="fa-solid fa-location-dot profile-contact-icon"></span>
-      <strong>Delft, South Holland, Netherlands</strong>
+      <strong>Delft, The Netherlands</strong>
     </div>
   </div>
   <div class="profile-divider"></div>
