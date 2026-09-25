@@ -40,7 +40,7 @@ Earlier roles include research and engineering internships at the National Unive
   <div class="profile-socials">
     <a href="https://www.linkedin.com/in/atharva-dagaonkar"><span class="fa-brands fa-linkedin"></span> LinkedIn</a>
     <a href="https://github.com/athxrva02"><span class="fa-brands fa-github"></span> GitHub</a>
-    {% if page.scholar_url != '' %}<a href="{{ page.scholar_url }}" target="_blank" rel="noopener noreferrer"><span class="fa-solid fa-graduation-cap" aria-hidden="true"></span> Google Scholar</a>{% endif %}
+    {% if page.scholar_url != '' %}<a href="{{ page.scholar_url }}" target="_blank" rel="noopener noreferrer"><span class="fa-solid fa-graduation-cap" aria-hidden="true"></span> Scholar</a>{% endif %}
     {% if page.resume_url != '' %}<a href="{{ page.resume_url }}" target="_blank" rel="noopener noreferrer"><span class="fa-solid fa-file-lines"></span> Resume</a>{% endif %}
   </div>
 </div>
