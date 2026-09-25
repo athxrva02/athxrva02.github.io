@@ -257,7 +257,8 @@ a:focus-visible, button:focus-visible {
   border: 1px solid #e3e8ef;
   border-radius: 6px;
   overflow: hidden;
-  background: #fff;
+  background: hsl(0, 0%, 100%);
+  max-width: 200px;
 }
 .profile-photo {
   width: 100%;
@@ -492,6 +493,10 @@ a:focus-visible, button:focus-visible {
 }
 
 /* Career timeline */
+.career-section {
+  margin-top: 1.25rem;
+  max-width: 700px;
+}
 .timeline {
   --timeline-date-width: 220px;
   position: relative;
@@ -572,6 +577,9 @@ a:focus-visible, button:focus-visible {
   font-size: 0.9rem;
   line-height: 1.5;
 }
+.timeline-heading {
+  white-space: nowrap;
+}
 
 @media (max-width: 991.98px) {
   .timeline {
@@ -599,9 +607,21 @@ a:focus-visible, button:focus-visible {
   .timeline-body {
     padding-left: 0;
   }
+  .timeline-heading {
+    white-space: normal;
+  }
+  .timeline-separator {
+    display: none;
+  }
+  .timeline-org {
+    display: block;
+  }
 }
 .timeline-title {
   font-weight: 700;
+}
+.timeline-org {
+  white-space: nowrap;
 }
 .timeline-location {
   display: block;
@@ -626,6 +646,9 @@ a:focus-visible, button:focus-visible {
   color: #53606e;
   font-size: 0.85rem;
   margin-top: 2px;
+}
+.career-section .timeline-detail {
+  max-width: 42ch;
 }
 
 /* Awards and certifications */
@@ -795,11 +818,6 @@ a:focus-visible, button:focus-visible {
 #people {
   padding-top: 0.5rem;
 }
-
-
-
-
-
 
 
 

@@ -21,9 +21,6 @@ At <strong>Google</strong> I work on building a platform for <strong>large-scale
 Earlier roles include research and engineering internships at the National University of Singapore, the University of Auckland, <strong>Samsung R&amp;D</strong>, and <strong>Hewlett Packard Enterprise</strong>. I received my Bachelor of Technology in Computer Science from Vellore Institute of Technology (2020–2024) and am pursuing my MSc at TU Delft (2025–2027). I have a first-authored <a href="https://doi.org/10.1109/ICUIS64676.2024.10867167">paper on inventory management in augmented reality using Apple ARKit for visionOS</a>.
 </p>
 
-<h5 style="margin-top:1.4rem;">Career timeline</h5>
-{% include career-timeline.html %}
-
 </div>
 <div class="col-md-4">
 <div class="profile-card">
@@ -49,6 +46,11 @@ Earlier roles include research and engineering internships at the National Unive
 </div>
 </div>
 </div>
+
+<section class="career-section" aria-labelledby="career-heading">
+  <h5 id="career-heading">Career timeline</h5>
+  {% include career-timeline.html %}
+</section>
 
 
 <!-- Focus Areas -->
