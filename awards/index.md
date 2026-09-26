@@ -3,8 +3,6 @@ layout: default
 title: "Awards & Certifications — Atharva Dagaonkar"
 ---
 
-<h2 class="lead-xl">Awards &amp; Certifications</h2>
-
 #### Awards
 
 <ul class="recognition-list">
