@@ -10,7 +10,7 @@ scholar_url: "https://scholar.google.com/citations?hl=en&user=dHQlZFgAAAAJ"
 <div class="col-sm-8">
 
 <p class="lead lead-xl">
-<strong>MSc Computer Science</strong> at <a href="https://www.tudelft.nl/">TU Delft</a> and <strong>Software Engineering Intern</strong> at <a href="https://www.google.com/">Google</a> in <strong>Munich</strong>.
+<strong>MSc Computer Science at TU Delft and Software Engineering Intern at Google in Munich</strong>.
 </p>
 
 <p>
