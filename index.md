@@ -18,7 +18,7 @@ At <strong>Google</strong> I work on building a platform for <strong>large-scale
 </p>
 
 <p>
-Earlier roles include research and engineering internships at the National University of Singapore, the University of Auckland, <strong>Samsung R&amp;D</strong>, and <strong>Hewlett Packard Enterprise</strong>. I received my Bachelor of Technology in Computer Science from Vellore Institute of Technology (2020–2024) and am pursuing my MSc at TU Delft (2025–2027). I have a first-authored paper on <a href="https://doi.org/10.1109/ICUIS64676.2024.10867167"> inventory management in augmented reality using Apple ARKit for visionOS</a>.
+Earlier roles include research and engineering internships at the National University of Singapore, the University of Auckland, <strong>Samsung R&amp;D</strong>, and <strong>Hewlett Packard Enterprise</strong>. I received my Bachelor of Technology in Computer Science from Vellore Institute of Technology (2020–2024) and am pursuing my MSc at TU Delft (2025–2027). I have a first-authored paper on <a href="https://doi.org/10.1109/ICUIS64676.2024.10867167"> Inventory management in augmented reality using Apple ARKit for visionOS</a>.
 </p>
 
 </div>
