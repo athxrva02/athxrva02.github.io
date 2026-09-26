@@ -42,7 +42,7 @@
   title: ASE — Full Stack
   org: ARRISE
   location: "Hyderabad"
-  detail: "Java 17, Spring Boot, Angular/React -- Team leadership, scalable services, TDD"
+  detail: "Java 17, Spring Boot, Angular/React — Team leadership, scalable services, TDD"
 
 - year: "Jan 2024 - June 2024"
   status: past
@@ -51,7 +51,7 @@
   title: Software Engineer Intern
   org: ARRISE
   location: "Hyderabad"
-  detail: "Backend APIs for Live Casino Integration -- Angular components, CI/CD"
+  detail: "Backend APIs for Live Casino Integration — Angular components, CI/CD"
 
 - year: "Sep 2023 - Dec 2023"
   status: past
@@ -67,7 +67,7 @@
   org_domain: auckland.ac.nz
   title: Intern
   org: University of Auckland
-  detail: "Threat detection and geoparsing SaaS -- Python, JavaScript"
+  detail: "Threat detection and geoparsing SaaS — Python, JavaScript"
 
 - year: "Dec 2022 – June 2023"
   status: past
@@ -84,7 +84,7 @@
   org_domain: nus.edu.sg
   title: ML and Analytics Intern
   org: National University of Singapore
-  detail: "Water contamination detection -- Python, deep learning, NASA data on Azure"
+  detail: "Water contamination detection — Python, deep learning, NASA data on Azure"
 
 - year: "Dec 2022"
   status: past

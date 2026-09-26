@@ -3,9 +3,9 @@ layout: default
 title: "Awards & Certifications — Atharva Dagaonkar"
 ---
 
-## Awards & Certifications
+<h2 class="lead-xl">Awards &amp; Certifications</h2>
 
-### Awards
+#### Awards
 
 <ul class="recognition-list">
   {% for a in site.data.awards %}{% if a.type == 'award' %}
@@ -19,7 +19,7 @@ title: "Awards & Certifications — Atharva Dagaonkar"
   {% endif %}{% endfor %}
 </ul>
 
-### Certifications
+#### Certifications
 
 <ul class="recognition-list">
   {% for a in site.data.awards %}{% if a.type == 'certification' %}
