@@ -26,14 +26,14 @@
   location: "Utrecht, Netherlands"
   detail: "Agentic AI, R&D, and large-scale data processing"
 
-- year: "2025 – 2027"
+- year: "July 2025–July 2027"
   status: current
   icon: fa-solid fa-graduation-cap
   org_domain: tudelft.nl
   title: MSc Computer Science
   org: TU Delft
   location: "Delft, Netherlands"
-  detail: "July 2025–July 2027 — Software Engineering, Machine Learning Applications, Distributed Systems"
+  detail: "Software Engineering, Machine Learning Applications, Distributed Systems"
 
 - year: "July 2024 – July 2025"
   status: past
