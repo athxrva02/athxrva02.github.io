@@ -3,7 +3,7 @@ layout: default
 title: "Awards & Certifications — Atharva Dagaonkar"
 ---
 
-#### Awards
+<h4 class="awards-page-heading">Awards</h4>
 
 <ul class="recognition-list">
   {% for a in site.data.awards %}{% if a.type == 'award' %}

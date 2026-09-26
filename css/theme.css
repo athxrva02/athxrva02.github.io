@@ -816,11 +816,14 @@ a:focus-visible, button:focus-visible {
   font-weight: 700;
 }
 
+.awards-page-heading {
+  margin-top: 2rem;
+}
+
 /* People section top padding */
 #people {
   padding-top: 0.5rem;
 }
-
 
 
 
