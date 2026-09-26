@@ -811,15 +811,15 @@ a:focus-visible, button:focus-visible {
 
 /* Lead paragraph variant */
 .lead-xl {
-  font-size: 130%;
+  font-size: 115%;
+  color: var(--accent);
+  font-weight: 700;
 }
 
 /* People section top padding */
 #people {
   padding-top: 0.5rem;
 }
-
-
 
 
 

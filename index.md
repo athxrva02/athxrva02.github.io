@@ -14,11 +14,11 @@ scholar_url: "https://scholar.google.com/citations?hl=en&user=dHQlZFgAAAAJ"
 </p>
 
 <p>
-At <strong>Google</strong> I work on building a platform for <strong>large-scale agentic migrations</strong>: automated, hands-free moves from legacy and unsafe C++ libraries to verified Rust replacements. After Google, I will join <strong>ING</strong>'s R&amp;D team in Amsterdam to research agentic tooling for large engineering teams. Previously, I worked on <strong>multi-agent systems</strong> as an AI Engineer Intern at <strong>Rabobank</strong> and was a team lead and full-stack software engineer at <strong>ARRISE</strong>. I hold the AWS Solutions Architect – Associate certification.
+At <strong>Google</strong> I work on building a platform for <strong>large-scale agentic migrations</strong>: automated, hands-free moves from legacy and unsafe C++ libraries to verified Rust replacements. After Google, I will be joining <strong>ING</strong>'s R&amp;D team in Amsterdam to research agentic tooling for large engineering teams. Previously, I worked on <strong>multi-agent systems</strong> as an AI Engineer Intern at <strong>Rabobank</strong> and was a team lead and full-stack software engineer at <strong>ARRISE</strong>. I hold the AWS Solutions Architect – Associate certification.
 </p>
 
 <p>
-Earlier roles include research and engineering internships at the National University of Singapore, the University of Auckland, <strong>Samsung R&amp;D</strong>, and <strong>Hewlett Packard Enterprise</strong>. I received my Bachelor of Technology in Computer Science from Vellore Institute of Technology (2020–2024) and am pursuing my MSc at TU Delft (2025–2027). I have a first-authored <a href="https://doi.org/10.1109/ICUIS64676.2024.10867167">paper on inventory management in augmented reality using Apple ARKit for visionOS</a>.
+Earlier roles include research and engineering internships at the National University of Singapore, the University of Auckland, <strong>Samsung R&amp;D</strong>, and <strong>Hewlett Packard Enterprise</strong>. I received my Bachelor of Technology in Computer Science from Vellore Institute of Technology (2020–2024) and am pursuing my MSc at TU Delft (2025–2027). I have a first-authored paper on <a href="https://doi.org/10.1109/ICUIS64676.2024.10867167"> inventory management in augmented reality using Apple ARKit for visionOS</a>.
 </p>
 
 </div>
