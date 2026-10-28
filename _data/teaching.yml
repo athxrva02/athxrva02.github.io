@@ -1,1 +1,7 @@
-[]
+- institution: TU Delft
+  courses:
+    - name: "Web Scale Data Management"
+      role: "Teaching Assistant"
+      level: MSc
+      period: "Nov–present"
+      description: "Master’s-level course covering large-scale data systems, databases, stream processing, and system design."
