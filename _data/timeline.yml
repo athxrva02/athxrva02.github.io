@@ -1,15 +1,15 @@
 - year: "October 2026 – May 2027"
-  status: upcoming
+  status: current
   icon: fa-solid fa-building-columns
   org_domain: ing.nl
   title: Research Intern
   org: ING Bank
   location: "Amsterdam, Netherlands"
   location_bold: false
-  detail: "Software Engineering, Agentic Platform Engineering"
+  detail: "Researching ING’s transformation from agile to agentic software engineering and building developer platforms to improve productivity and shape the future of software engineering at ING."
 
 - year: "July 2026 - October 2026"
-  status: current
+  status: past
   icon: fa-brands fa-google
   org_domain: google.com
   title: Software Engineer Intern

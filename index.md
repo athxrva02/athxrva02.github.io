@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Atharva Dagaonkar | SWE Intern, Google | MSc Computer Science, TU Delft"
+title: "Atharva Dagaonkar | Research Intern, ING | MSc Computer Science, TU Delft"
 resume_url: "https://drive.google.com/file/d/1wrWekyG910taE2ozjqwWYiodHIBFZTAK/view?usp=sharing" # 
 scholar_url: "https://scholar.google.com/citations?hl=en&user=dHQlZFgAAAAJ"
 ---
@@ -10,11 +10,11 @@ scholar_url: "https://scholar.google.com/citations?hl=en&user=dHQlZFgAAAAJ"
 <div class="col-sm-8">
 
 <p class="lead lead-xl">
-<strong>MSc Computer Science at TU Delft and Software Engineering Intern at Google in Munich</strong>.
+<strong>MSc Computer Science at TU Delft and Research Intern at ING in Amsterdam</strong>.
 </p>
 
 <p>
-At <strong>Google</strong> I work on building a platform for <strong>large-scale agentic migrations</strong>: automated, hands-free moves from legacy and unsafe C++ libraries to verified Rust replacements. After Google, I will be joining <strong>ING</strong>'s R&amp;D team in Amsterdam to research agentic tooling for large engineering teams. Previously, I worked on <strong>multi-agent systems</strong> as an AI Engineer Intern at <strong>Rabobank</strong> and was a team lead and full-stack software engineer at <strong>ARRISE</strong>. I hold the AWS Solutions Architect – Associate certification.
+At <strong>ING</strong>, I research the transformation from <strong>agile to agentic software engineering</strong>. I build platforms that help developers become more productive and explore how agentic tools can shape the next era of software engineering at ING. Previously, as a Software Engineering Intern at <strong>Google</strong> in Munich, I worked on a platform for <strong>large-scale agentic migrations</strong>: automated, hands-free moves from legacy and unsafe C++ libraries to verified Rust replacements. I also worked on <strong>multi-agent systems</strong> as an AI Engineer Intern at <strong>Rabobank</strong> and was a team lead and full-stack software engineer at <strong>ARRISE</strong>. I hold the AWS Solutions Architect – Associate certification.
 </p>
 
 <p>
@@ -61,7 +61,7 @@ Earlier roles include research and engineering internships at the National Unive
 <div class="research-card">
   <div class="card-icon"><span class="fa-solid fa-robot"></span></div>
   <h6>Agentic AI &amp; automation</h6>
-  <p class="small text-muted mb-0">LangChain-style orchestration, production AI systems, and R&amp;D for large-scale data processing in enterprise settings.</p>
+  <p class="small text-muted mb-0">Agentic software engineering, developer platforms, and tools that improve developer productivity, with a current research focus on ING’s transition from agile to agentic engineering.</p>
 </div>
 </div>
 

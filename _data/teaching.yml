@@ -3,5 +3,5 @@
     - name: "Web Scale Data Management"
       role: "Teaching Assistant"
       level: MSc
-      period: "Nov–present"
-      description: "Master’s-level course covering large-scale data systems, databases, stream processing, and system design."
+      period: "November 2026 – February 2027"
+      description: "Master’s-level course on web-scale distributed data storage, covering key-value, document, wide-column, and graph databases. Topics include the CAP theorem; trade-offs in scalability, data models, query expressivity, and replication consistency; and distributed transactions and consistency guarantees. Students design scalable data management architectures, analyse use-case requirements, evaluate their designs through experiments, and apply scalable data management techniques in practice."

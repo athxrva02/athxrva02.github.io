@@ -5,7 +5,9 @@ title: "Short Bio — Atharva Dagaonkar"
 
 ##### Short Bio
 
-Atharva Dagaonkar is an MSc student in Computer Science at [TU Delft](https://www.tudelft.nl/) and a SWE Intern at [Google](https://www.google.com/) in **Munich**. He works on research in data-intensive systems, with a current focus on agentic AI and reinforcement learning, and collaborates across Product, Security, and Data Engineering to productionize high-performance AI systems.
+Atharva Dagaonkar is an MSc student in Computer Science at [TU Delft](https://www.tudelft.nl/) and a Research Intern at [ING](https://www.ing.com/) in **Amsterdam**. His research focuses on ING’s transformation from agile to agentic software engineering. He builds platforms to improve developer productivity and explores how agentic tools can shape the next era of software engineering at ING.
+
+Previously, he was a Software Engineering Intern at [Google](https://www.google.com/) in **Munich**, working on a platform for large-scale agentic migrations from legacy and unsafe C++ libraries to verified Rust replacements. He also worked on multi-agent systems as an AI Engineer Intern at Rabobank.
 
 Previously he was a full-stack software engineer at ARRISE (**Hyderabad**), specializing in Java (including Java 17 and Spring Boot) with Angular and React. He has experience architecting services for high concurrency and throughput, API design, migration planning, test-driven development, and technical interviewing and team leadership. He holds the AWS Solutions Architect – Associate certification.
 
